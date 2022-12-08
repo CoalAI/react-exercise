@@ -155,7 +155,7 @@ export default function Dogs() {
                     width: 120,
                   }}
                   status={imagesError ? "error" : ""}
-                  onChange={(v) => {setImagesToShow([]);setSelectedNoImages(v)}}
+                  onChange={(v) => {setSelectedNoImages(v)}}
                   options={imageOptions}
                 />
               </Form.Item>
